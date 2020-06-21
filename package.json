@@ -1,0 +1,27 @@
+{
+  "name": "npmsample",
+  "version": "1.0.0",
+  "description": "this is a sample npm proj",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "devStart": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/thedineshbabu/npmsample.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "dinesh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
